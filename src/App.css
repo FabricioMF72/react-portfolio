@@ -108,6 +108,23 @@
   margin-right: auto;
   display: block;
 }
+
+.about-nav{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  font-size: 40px;
+  text-align: center;
+}
+
+.nav-item{
+  color: #fff;
+  text-decoration: none !important;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
 .skill{
   width: 100%;
   height: auto;

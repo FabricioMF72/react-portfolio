@@ -2,6 +2,8 @@ import React from 'react'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Image from 'react-bootstrap/Image'
+import Nav from 'react-bootstrap/Nav'
+import { FaFacebookF,FaInstagram, FaGithub, FaLinkedinIn } from 'react-icons/fa';
 const About = () => {
     return (
         <div className="about">
@@ -18,6 +20,20 @@ const About = () => {
                         amet consectetur adipisicing elit. Distinctio veniam officia necessitatibus voluptate dolore magnam
                         molestias beatae esse quidem veniam officia necessitatibus voluptate dolore magnam fugit perspiciatis, 
                         eligendi corporis consequuntur voluptates sunt animi voluptatem sapiente maxime.</p>
+                        <Nav className="about-nav">
+                            <Nav.Item>
+                                <Nav.Link href="https://www.instagram.com/fabricio_mflores/" className="nav-item"><FaFacebookF/></Nav.Link>
+                            </Nav.Item>
+                            <Nav.Item>
+                                <Nav.Link href="https://www.instagram.com/fabricio_mflores/" className="nav-item"><FaInstagram/></Nav.Link>
+                            </Nav.Item>
+                            <Nav.Item>
+                                <Nav.Link href="https://www.instagram.com/fabricio_mflores/" className="nav-item"><FaGithub/></Nav.Link>
+                            </Nav.Item>
+                            <Nav.Item>
+                                <Nav.Link href="https://www.instagram.com/fabricio_mflores/" className="nav-item"><FaLinkedinIn /></Nav.Link>
+                            </Nav.Item>
+                        </Nav>
                     </div>
                 </Col>
             </Row>
