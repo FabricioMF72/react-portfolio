@@ -3,6 +3,7 @@
    width: 100%;
    height: auto;
    background-color: #212331 ;
+   margin-bottom: 40px;
 }
 
 .navbar-logo{
@@ -41,8 +42,9 @@
 .home-title{
   color: #fff;
   text-align:justify;
-  font-weight: 800;
-  letter-spacing: 3px;
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: 2.5px;
   margin-top: 100px;
   
 }

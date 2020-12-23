@@ -7,7 +7,7 @@ import { FaDev } from "react-icons/fa"
 const Header = () => {
     return (
         <div className= "header">
-            <Navbar collapseOnSelect expand="lg" className="header-navbar">
+            <Navbar collapseOnSelect expand="lg" fixed="top" className="header-navbar">
             <Navbar.Brand href="#home">
                 <FaDev className="navbar-logo"/>
             </Navbar.Brand>

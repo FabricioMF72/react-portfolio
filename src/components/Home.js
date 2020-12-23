@@ -9,7 +9,7 @@ const Home = () => {
             <div className="container-home">
                 <Row>
                     <Col sm={4} className="home-info">
-                        <h1 className="home-title">MY NAME IS <br/> FABRICIO MURILLO</h1>
+                        <h1 className="home-title">FABRICIO MURILLO</h1>
                         <h1 className="home-about">I am passionate about web development</h1>
                     </Col>
                     <Col sm={7} className="home-carousel">
