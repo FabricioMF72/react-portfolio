@@ -3,11 +3,12 @@ import Card from 'react-bootstrap/Card'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import ProgressBar from 'react-bootstrap/ProgressBar'
+import Container from 'react-bootstrap/Container'
 import { DiMysql,DiReact, DiJavascript, DiGit, DiHtml5, DiCss3, DiBootstrap } from 'react-icons/di';
 import { SiRstudio } from 'react-icons/si';
 const Skill = () => {
     return (
-        <div className="skill">
+        <Container className="skill" fluid>
             <Row>
                 <Col sm={3}>
                     <Card style={{ width: '18rem' }} className="card-item">
@@ -84,7 +85,7 @@ const Skill = () => {
                     </Card>
                 </Col>
             </Row>
-        </div>
+        </Container>
     )
 }
 

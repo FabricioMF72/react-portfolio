@@ -3,15 +3,16 @@ import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Image from 'react-bootstrap/Image'
 import Nav from 'react-bootstrap/Nav'
+import Container from 'react-bootstrap/Container'
 import { FaFacebookF,FaInstagram, FaGithub, FaLinkedinIn } from 'react-icons/fa';
 const About = () => {
     return (
-        <div className="about">
+        <Container className="about" fluid>
             <Row>
-                <Col sm={5}>
+                <Col sm={4}>
                     <Image className="about-image" src="/images/about-image.jpg" alt="First slide" fluid  />
                 </Col>
-                <Col sm={7}>
+                <Col sm={8}>
                     <div className="about-info">
                         <h1 className="about-title"> Hi there! I am Fabricio Murillo Flores</h1>
                         <p className="about-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio 
@@ -37,7 +38,7 @@ const About = () => {
                     </div>
                 </Col>
             </Row>
-        </div>
+        </Container>
     )
 }
 
