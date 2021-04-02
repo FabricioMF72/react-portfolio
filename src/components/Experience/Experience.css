@@ -1,0 +1,22 @@
+.experience-content{
+    text-align:justify;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.experience-title{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+.experience-timelapse{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.experience-description{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+}

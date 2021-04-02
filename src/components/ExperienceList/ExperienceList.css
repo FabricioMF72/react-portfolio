@@ -1,0 +1,10 @@
+.experience-container{
+    background-color: transparent;
+    border: 1px solid #e8e8e8;
+    border-radius: 10px;
+    margin-top:30px;
+    color: #6c757d;
+    padding: 20px;
+    font-size: 20px;
+    height: auto;
+}

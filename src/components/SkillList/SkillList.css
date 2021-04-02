@@ -1,0 +1,24 @@
+.skill-container{
+    background-color: transparent;
+    border: 1px solid #e8e8e8;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top:30px;
+    color: #6c757d;
+    font-size: 20px;
+}
+
+.col-md-4{
+    background-color: #f8f9fa;
+    padding: 20px;
+    
+}
+
+.col-md-8{
+    background-color: #f8f9fa;
+    padding: 20px;
+}
+
+.progress-bar{
+    background-color: #FF4E02;
+}

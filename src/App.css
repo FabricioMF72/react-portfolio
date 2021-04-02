@@ -2,20 +2,22 @@
   margin: 0 ;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'ABeeZee', sans-serif;
 }
 .root{
-  background-color: #1C1D28;
-}
-.col{
-  padding: 0% !important;
+  background-color: #E5E5E5;
 }
 .header{
-   width: 90% !important;
+   width: 100% !important;
    height: auto;
-   background-color: #212331 ;
-   margin-bottom: 40px;
+   background-color: transparent ;
    
 }
+nav.black{
+  transition: 0.5s;
+  background-color: white;
+}
+
 .header-navbar{
   width: 100%;
 }
@@ -25,150 +27,54 @@
   margin-left: 30px;
   color: #fff;
 }
+.navbar-logo.black{
+  transition: 0.5s;
+  font-size: 50px;
+  margin-left: 30px;
+  color:black;
+}
 
 .navbar__left-items{
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 500px;
+  font-family: 'ABeeZee', sans-serif;
+  font-size: 20px;
+  width: auto;
+  padding: 10px;
 }
 
 .navbar__left-text{
-  color: #fff !important;
+  color: white !important;
   text-decoration: none;
+  margin-left: 30px;
+}
+
+.navbar__left-text:hover{
+  transition: 1;
+  font-size: 22px;
+  font-weight: 700;
+  color: #FF4E02 !important;
+}
+
+.navbar__left-text.black{
+  transition: 0.5s;
+  color: black !important;
+  text-decoration: none;
+  margin-left: 30px;
+}
+.navbar__left-text.black:hover{
+  color: #FF4E02 !important;
 }
 .navbar__left-items:last-child{
   margin-right: 30px;
 }
 
 .header-navbar{
-  background-color: #212331;
-}
-.container-home{
-  width: 100% ;
-  height: auto;
-  background-color: #1C1D28;
-}
-.home-info{
-  margin: 100px ;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-}
-.home-title{
-  color: #fff;
-  text-align:justify;
-  font-size: 35px;
-  font-weight: 700;
-  letter-spacing: 2.5px;
-  margin-top: 100px;
-  
+  background-color:transparent;
 }
 
-.home-about{
-  color: #fff;
+
+.section-title{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
   font-size: 30px;
-  font-weight: 400;
-  letter-spacing: 3px;
-  
-}
-.home-carousel{
-  margin: 50px 0 10px 0;
-  
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-  
-}
-
-.about{
-  width: 100%;
-  height: auto;
-  background-color: #fff;
-  
-  
-}
-
-.about-image{
-  max-width: 100%;
-  max-height: 75%;
-  margin-top: 100px;
-  margin-bottom: -100px;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-}
-
-.about-info{
-  width: 100%;
-  height: auto;
-  background-color:#212331 ;
-  margin-top: 100px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 40px;
-  display: block;
-}
-.about-title{
-  padding-top: 30px;
-  
-  color: #fff;
-  font-size: 30px;
-  text-align: justify;
-  padding-left: 10px;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-  
-}
-
-.about-text{
-  padding-top: 30px;
-  padding-bottom: 35px;
-  color: #fff;
-  font-size: 20px;
-  text-align:left;
-  padding-left: 10px;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-  
-}
-
-.about-nav{
-  font-size: 40px;
-
-}
-
-.nav-item{
-  color: #fff;
-  text-decoration: none !important;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-}
-
-.skill{
-  width: 100%;
-  height: auto;
-  background-color: #1C1D28;
-  text-align: center;
-  padding:10px;
-}
-
-
-.card-item{
-  margin: 10px 30px 10px 0px;
-  background-color: #1C1D28 !important;
-  border: 1px solid #fff !important;
-  border-radius: 0px !important;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-}
-
-.card-logo{
-  margin-left: auto;
-  margin-right: auto;
-  font-size: 150px;
-  opacity: 1; 
-  color: #fff;
+  color: #212529;
 }
