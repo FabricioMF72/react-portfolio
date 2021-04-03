@@ -4,7 +4,10 @@
     margin-top: 10px;
 }
 
-
+.about-row{
+  width: 100%;
+  height: auto;
+}
 .carousel-row{
   margin-top: 30px;
   text-align: center;

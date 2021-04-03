@@ -1,9 +1,10 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import './App.css';
-import Header from "./components/Header";
-import Home from "./components/Home/Home"
-import Layout from './components/Layout/Layout'
+import Header from "../Header/Header";
+import Home from "../Home/Home"
+import Layout from '../Layout/Layout'
+import Footer from "../Footer/Footer";
 function App() {
   return (
     <>
@@ -14,6 +15,7 @@ function App() {
           <Route exact path="/" component={Home} />
         </Switch>
       </Layout>
+      <Footer/>
     </Router>
     </>
   );

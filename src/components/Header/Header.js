@@ -3,7 +3,7 @@ import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { FaDev } from "react-icons/fa"
-
+import "./Header.css"
 const Header = () => {
     return (
         <div className= "header">

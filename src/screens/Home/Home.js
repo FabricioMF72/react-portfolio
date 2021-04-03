@@ -1,6 +1,5 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import About from '../About/About';
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import SkillList from '../SkillList/SkillList';
@@ -10,6 +9,8 @@ import ProyectCard from '../ProyectCard/ProyectCard'
 import ExperienceList from '../ExperienceList/ExperienceList';
 import Carousel from "react-elastic-carousel";
 import Contact from '../Contact/Contact';
+import Banner from '../Banner/Banner';
+import About from '../About/About';
 const breakPoints = [
     {
         width: 1, itemsToShow: 1
@@ -21,7 +22,10 @@ const breakPoints = [
 const Home = () => {
     return (
         <>
-            <Row id="#home" className="about-row">
+            <Row id="#home" className="banner-row">
+                <Banner/>
+            </Row>
+            <Row id="#About" className="about-row">
                 <About/>
             </Row>
             <Row id="#skill" className="skill-row">
