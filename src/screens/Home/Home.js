@@ -2,15 +2,15 @@ import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
-import SkillList from '../SkillList/SkillList';
+import SkillList from '../../components/SkillList/SkillList';
 import "./Home.css"
 import data from "../../data"
-import ProyectCard from '../ProyectCard/ProyectCard'
-import ExperienceList from '../ExperienceList/ExperienceList';
+import ProyectCard from '../../components/ProyectCard/ProyectCard'
+import ExperienceList from '../../components/ExperienceList/ExperienceList';
 import Carousel from "react-elastic-carousel";
-import Contact from '../Contact/Contact';
-import Banner from '../Banner/Banner';
-import About from '../About/About';
+import Contact from '../../components/Contact/Contact';
+import Banner from "../../components/Banner/Banner"
+import About from '../../components/About/About';
 const breakPoints = [
     {
         width: 1, itemsToShow: 1
